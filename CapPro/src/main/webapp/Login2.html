@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Style/LoginStyle.css" />
+  </head>
+  <body>
+    <body>
+      <div class="header">
+        <div class="container" align="center">
+          <ol>
+            <li>Cab<span>Service</span></li>
+          </ol>
+        </div>
+      </div>
+      <section>
+        <div class="content" align="center">
+          <h2>welcome to login</h2>
+
+          <form action="Login" method="post">
+            <div class="userbox">
+              <input
+                type="text"
+                placeholder="Username"
+                name="username"
+                required
+              />
+              <label>User name</label>
+            </div>
+
+            <div class="userbox">
+              <input
+                type="password"
+                placeholder="password"
+                name="password"
+                required
+              />
+              <label>password</label>
+            </div>
+            <input type="submit" value="login" id="btn" />
+          </form>
+          <br />
+          <h5 style="color: green">Invalid UserName&Password!!</h5>
+          <br />
+          <h5 style="color: red">Create an Account Signin First</h5>
+          <a href="signin.html"><input type="submit" value="signin" id="btn" /> </a>
+        </div>
+      </section>
+    </body>
+  </body>
+</html>
